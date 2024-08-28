@@ -1,0 +1,33 @@
+#contenedor{
+background-color: #ffffff;
+width: 400px;
+height: 500px;
+border:solid 1px rgb(230, 230, 230);
+border-radius: 5px;
+display:flex;
+flex-direction:column; 
+}
+
+
+
+.presentacion {
+background-color: aqua;   
+width: 400px; 
+height: 80px;
+border-top-right-radius:  5px;
+border-top-left-radius: 5px;
+display:flex;
+align-items: flex-end;
+}
+img {
+width: 90px;
+height: 90px;
+border-radius:50% ;
+top: 30px;
+margin-left: 40px;
+position: relative;
+}
+h1 {
+padding-top: 20px;
+padding-left: 35px;
+}
